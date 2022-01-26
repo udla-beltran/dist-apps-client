@@ -1,0 +1,54 @@
+<!-- Partial of result -->
+<div class='container'>
+	<!-- Content -->
+	<div class='content'>
+		<!-- ID item -->
+		<div class='item'>
+			<div class='item-header'>
+				<img src='/icons/user.svg' alt='id' class='blue' />
+				<h2>ID Number</h2>
+			</div>
+			<div class='result'>
+				<span>The ID number {{id.id}} is </span>
+				{{#if id.real}}
+					<div class='valid'>
+						<span>Valid</span>
+						<img src='/icons/check.svg' alt='check' class='green' />
+					</div>
+				{{else}}
+					<div class='valid'>
+						<span>Not valid</span>
+						<img src='/icons/incorrect.svg' alt='check' class='red' />
+					</div>
+				{{/if}}
+			</div>
+		</div>
+		<!-- Age item -->
+		<div class='item'>
+			<div class='item-header'>
+				<img src='/icons/cake.svg' alt='age' class='orange' />
+				<h2>User Age</h2>
+			</div>
+			<div class='result'>
+				<span>The user age {{age.currentAge}} is </span>
+				{{#if age.overAge}}
+					<div class='valid'>
+						<span>Valid</span>
+						<img src='/icons/check.svg' alt='check' class='green' />
+					</div>
+				{{else}}
+					<div class='valid'>
+						<span>Not valid</span>
+						<img src='/icons/incorrect.svg' alt='check' class='red' />
+					</div>
+				{{/if}}
+			</div>
+		</div>
+		<!-- Return button -->
+		<a href='/'>
+			<div class='btn'>
+				Return
+			</div>
+		</a>
+	</div>
+</div>

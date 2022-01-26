@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="content">
+        <div class="time">
+            <h2>Today's date is</h2>
+            <div class="display">
+                <span>{{ time }}
+            </div>
+        </div>
+        <div class="form-content">
+            <form action="/verify" method="post" enctype="application/x-www-form-urlencoded" id="form-send">
+                <h2>Id Number</h2>
+                <input type="text" placeholder="Id Number" id="id" name="id">
+                <h2>Birth Date</h2>
+                <input type="text" placeholder="Birth Date" id="age" name="age">
+                <input type="submit" id="btn-send" class="btn" value="Send">
+            </form>
+        </div>
+    </div>
+</div>

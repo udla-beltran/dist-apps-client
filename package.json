@@ -1,0 +1,33 @@
+{
+  "name": "dist-apps-client",
+  "version": "1.0.0",
+  "description": "client web app to connect to different APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udla-beltran/dist-apps-client.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "client",
+    "handlebars",
+    "apis",
+    "node",
+    "js"
+  ],
+  "author": "Pablo Beltran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udla-beltran/dist-apps-client/issues"
+  },
+  "homepage": "https://github.com/udla-beltran/dist-apps-client#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  }
+}
